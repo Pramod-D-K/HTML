@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+    <form name="loginForm" method="post" action="" target="_blank" enctype="application/x-www-form-urlencoded" >
+
+      <label for="user_name">Name</label>
+      <br>
+      <input id="user_name" type="text" title="user_name" placeholder="username" name="userName">
+    </br>
+
+    <label for="password">password</label>
+  <br>
+      <input id="password" type="password" name="password" title="password">
+      <br>
+
+    <label for="email">Email</label>
+      <br>
+      <input id="email" type="email" title="email" placeholder="example@gmail.com" name="email">
+    
+    <input type="submit" value="login">
+
+    <br>
+    <label for="number">number</label>
+      <br>
+      <select>
+        <option value="+91">+91</option>
+        <option value="+83">+83</option>
+        <option value="+1">+1</option>
+      </select>
+      <input id="number" type="number" name="number" placeholder="number" title="number"  min="1000000000" max="9999999999">
+      <br>
+
+      <input type="range" max="10" min="8" >
+      <br>
+
+    <label for="birthDate">Date of Birth</label>
+      <br>
+      <input id="birthDate" type="date" title="birthDate" name="birthDate">
+    <br>
+
+      <label for="url">Url</label>
+      <br>
+      <input id="url" type="url" title="url" placeholder="http://" name="url">
+      </br>
+
+      <label for="colour">colour</label>
+      <br>
+      <input id="colour" type="color" title="color"  name="color">
+      </br>
+      </br>
+
+      <label for="agree">Agree</label>
+      <input id="agree" type="checkbox" title="agree" name="agree">
+      </br>
+      </br>
+
+      <input type="radio">
+
+      <input type="reset"/>
+<br>
+
+<select multiple>
+  <option>bmw</option>
+  <option>audi</option>
+  <option>honda</option>
+
+</select>
+
+<textarea maxlength="10"> </textarea>
+
+
+<button type="submit">done</button>
+
+<br>
+<label>Gender</label>
+<br>
+<input type="radio" value="Male" name="Gender" /> Male
+<br>
+<input type="radio" value="Female" name="Gender" /> Female
+<br>
+<input type="radio" value="Others" name="Gender" /> Others
+
+
+    </form>
+  </body>
+</html>
